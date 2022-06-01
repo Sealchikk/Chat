@@ -1,3 +1,4 @@
+package Client;
 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
@@ -17,6 +18,7 @@ public class Application extends javafx.application.Application {
         Parent parent = loader.load();
         Scene scene = new Scene(parent);
         primaryStage.setScene(scene);
+        primaryStage.setTitle("May chat");
         primaryStage.show();
     }
 }

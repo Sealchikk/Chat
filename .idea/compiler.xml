@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Chat-server" />
         <module name="Chat-client" />
+        <module name="Chat-common" />
       </profile>
     </annotationProcessing>
   </component>
